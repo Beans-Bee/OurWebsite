@@ -1,0 +1,9 @@
+{
+    "title_tab": "Home | Beans'Bee",
+    "welcome_message": "Welcome to our website!",
+    "nav": {
+        "home": "Home",
+        "projects": "Projects",
+        "about": "About"
+    }
+}
