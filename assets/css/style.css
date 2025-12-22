@@ -1,6 +1,6 @@
 @font-face {
     font-family: "regular";
-    src: url("../../fonts/ari-w9500.ttf");
+    src: url("./../../fonts/ari-w9500.ttf");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: "bold";
-    src: url("../../fonts/ari-w9500-bold.ttf");
+    src: url("./../../fonts/ari-w9500-bold.ttf");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
