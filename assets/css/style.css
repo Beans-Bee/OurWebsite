@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "regular";
+    src: url("../../fonts/ari-w9500.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "bold";
+    src: url("../../fonts/ari-w9500-bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "regular", sans-serif;
+    margin: 15px;
+    padding: 0;
+    background-color: #1a1a24;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    color: #ffc800;
+    font-family: 'bold', sans-serif;
+    text-shadow: #000000 2px 2px 4px;
+}
+
+.navbar {
+    text-align: center;
+    text-shadow: #000000 1px 1px 2px;
+    color: white;
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 3px solid white;
+    image-rendering: pixelated;
+    background-color: transparent;
+    transition: all 0.2s;
+}
+
+.navbar a:hover {
+    background-color: #ffc800;
+    color: #1a1a24;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.entete {
+    max-width: 800px;
+    margin: auto;
+}
+
+.entete h3 {
+    color: #ffc800;
+    font-family: 'bold', sans-serif;
+    background-color: black;
+    max-width: fit-content;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.entete p {
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 0;
+}
