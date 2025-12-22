@@ -58,3 +58,29 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
+.entete {
+    max-width: 800px;
+}
+
+.entete h3 {
+    color: #ffc800;
+    font-family: 'bold', sans-serif;
+    background-color: black;
+    max-width: fit-content;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.entete p {
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 0;
+    border: 2px solid #ffffff;
+}
