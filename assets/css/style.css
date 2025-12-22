@@ -1,6 +1,6 @@
 @font-face {
     font-family: "regular";
-    src: url("fonts/ari-w9500.ttf");
+    src: url("../../fonts/ari-w9500.ttf");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: "bold";
-    src: url("fonts/ari-w9500-bold.ttf");
+    src: url("../../fonts/ari-w9500-bold.ttf");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,7 @@
 
 body {
     font-family: "regular", sans-serif;
-    margin: 0;
+    margin: 15px;
     padding: 0;
     background-color: #1a1a24;
 }
@@ -26,10 +26,12 @@ body {
     margin-top: 50px;
     color: #ffc800;
     font-family: 'bold', sans-serif;
+    text-shadow: #000000 2px 2px 4px;
 }
 
 .navbar {
     text-align: center;
+    text-shadow: #000000 1px 1px 2px;
     color: white;
     overflow: hidden;
     max-width: 800px;
@@ -70,8 +72,6 @@ body {
     background-color: black;
     max-width: fit-content;
     padding: 10px;
-    border: 2px solid #ffffff;
-    border-bottom: none;
     margin-bottom: 0;
 }
 
@@ -83,5 +83,4 @@ body {
     font-size: 18px;
     line-height: 1.6;
     margin-top: 0;
-    border: 2px solid #ffffff;
 }
