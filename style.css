@@ -61,6 +61,7 @@ body {
 
 .entete {
     max-width: 800px;
+    margin: auto;
 }
 
 .entete h3 {
