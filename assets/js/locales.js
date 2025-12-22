@@ -1,5 +1,5 @@
 // ---------- CONFIG ----------
-const LANG_PATH = './../../locales/';   // dossier où sont les JSON
+const LANG_PATH = '/locales/';   // dossier où sont les JSON
 const DEFAULT_LANG = 'en';           // langue de secours
 const SUPPORTED = ['en', 'fr']; // liste des langues disponibles
 // -----------------------------
