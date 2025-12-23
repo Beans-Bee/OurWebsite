@@ -1,5 +1,5 @@
 // ---------- CONFIG ----------
-const LANG_PATH = '/locales/';   // dossier où sont les JSON
+const LANG_PATH = './locales/';   // dossier où sont les JSON
 const DEFAULT_LANG = 'en';           // langue de secours
 const SUPPORTED = ['en', 'fr']; // liste des langues disponibles
 // -----------------------------
@@ -57,6 +57,4 @@ document.addEventListener('DOMContentLoaded', () => {
 document.getElementById('langSelect').addEventListener('change', e => {
     const newLang = e.target.value;
     loadLang(newLang);
-    // Optionnel : mettre à jour l’URL sans recharger la page
-    history.replaceState(null, '', `/${newLang}/`);
 });
