@@ -30,6 +30,7 @@ body {
 }
 
 .navbar {
+    font-family: "bold", sans-serif;
     text-align: center;
     color: white;
     overflow: hidden;
