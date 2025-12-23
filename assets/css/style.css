@@ -30,8 +30,8 @@ body {
 }
 
 .navbar {
+    font-family: "bold", sans-serif;
     text-align: center;
-    text-shadow: #000000 1px 1px 2px;
     color: white;
     overflow: hidden;
     max-width: 800px;
