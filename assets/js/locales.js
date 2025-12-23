@@ -57,6 +57,4 @@ document.addEventListener('DOMContentLoaded', () => {
 document.getElementById('langSelect').addEventListener('change', e => {
     const newLang = e.target.value;
     loadLang(newLang);
-    // Optionnel : mettre à jour l’URL sans recharger la page
-    history.replaceState(null, '', `/${newLang}/`);
 });
