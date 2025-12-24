@@ -1,11 +1,12 @@
 {
-    "tab": "Beans'Bee Website",
+    "tab": "Home | Beans'Bee",
     "title": "Beans'Bee",
     "welcome_message": "Welcome to the Beans'Bee website!",
     "nav.about": "About",
     "nav.projects": "Projects",
     "nav.news": "News",
     "nav.contacts": "Contacts",
+    "nav.github": "GitHub",
     "about.title": "About",
-    "about.content": "Beans'Bee is an organization dedicated to promoting open-source technology and innovation in the field of software development."
+    "about.content": "Beans'Bee is a small independent video game studio founded in December 2025 by two friends who wish to express their creativity across the gaming world. We wish to offer games with rich universes, unique, filled with humor and references to other games or known memes. I hope you will enjoy our creations and that you will have a good time with them!"
 }
